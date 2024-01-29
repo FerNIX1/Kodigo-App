@@ -1,8 +1,8 @@
 
 /* import './App.css' */
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import { LoginPage } from "./pages/Logueo";
-import { RegistroPage } from "./pages/RegistrarUser";
+import { LoginPage } from "./pages/LoginPage";
+import { RegistroPage } from "./pages/RegisterPage";
 import "bootstrap/dist/css/bootstrap.min.css"
 function App() {
 
