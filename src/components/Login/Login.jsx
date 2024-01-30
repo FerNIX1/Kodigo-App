@@ -1,6 +1,7 @@
 import { useForm } from 'react-hook-form';
 import { EmailValidation, MinPassword, MaxPassword } from '../../utils/Validation';
 import "./Login.css"
+import {Link} from "react-router-dom";
 export const Login = () => {
   const { handleSubmit, register, formState: { errors } } = useForm();
   const submitForm = (data) => {
@@ -36,7 +37,9 @@ export const Login = () => {
         />
         {errors && errors.password && <span className="invalid-feedback">{errors.password.message}</span>}
       </div>
-      <button type="submit" className="btn btn-primary">Entrar</button>
+      
+      <button type="submit" className="btn btn-primary">Entrar</button><br></br>
+      <Link to={"/Registro"}>No tienes cuenta registrate aqui</Link>
     </form>
     {errors && errors.message && <span className='text-danger'>{errors.message}</span>}
   </section>

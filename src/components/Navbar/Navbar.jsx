@@ -5,7 +5,7 @@ export const Navbar = () => {
     <nav className="navbar navbar-expand-lg bg-white">
   <a className="navbar-brand text-white" href="#">
     <img src="https://res.cloudinary.com/dxdsq6qcw/image/upload/v1706502276/ckajt5rbnzkpctrgbgmv.png" width="170" height="50" alt="Spotify Logo" />
-    Spotify
+    Kodigo
   </a>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
@@ -25,7 +25,7 @@ export const Navbar = () => {
         </div>
       </li>
       <li className="nav-item">
-        <a className="nav-link " href="#">SignIn</a>
+        <a className="nav-link " href="#">Login</a>
       </li>
       <li className="nav-item">
       <button className="btn" style={{ backgroundColor: "rgba(255, 81, 0, 1)" , marginLeft: "auto"}}>Aplica</button>
