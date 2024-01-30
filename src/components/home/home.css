@@ -1,0 +1,74 @@
+.contenedor {
+    position: relative;
+}
+
+.imagen-contenedor {
+    position: relative;
+    overflow: hidden;
+}
+
+.imagen {
+    width: 100%;
+    height: auto;
+}
+
+.degradado {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(45deg, rgba(104, 50, 253, 0.9), rgba(155, 7, 200, 0.9));
+    z-index: 1;
+}
+
+.contenido {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    text-align: center;
+}
+
+.frase1 {
+    text-transform: uppercase;
+    color: #ffff;
+    font-size: 40px;
+    font-weight: 900;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ 
+}
+.frase2{
+    text-transform: uppercase;
+    color: #2dd6e2;
+    font-size: 80px;
+    font-weight: 900;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.frase3{
+    color: #ffff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 19px;
+    background-color: transparent; 
+    color: #2dd6e2; 
+    border: 2px solid #2dd6e2; 
+    border-radius: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 750;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+button:hover {
+    background-color: #2dd6e2;
+    color: rgb(2, 2, 56); /* Cambia el color del texto en hover */
+}
+

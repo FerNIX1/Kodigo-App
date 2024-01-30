@@ -16,6 +16,7 @@ export const Cards = () => {
                       <img src="https://guapacho.com/wp-content/uploads/2023/12/WhatsApp-Image-2023-12-13-at-4.32.20-PM.jpeg" className="card-img-top img-card" alt="..."/>
                   <div className="card-body">
                      <h5 className="card-title">Card title</h5>
+                     {/*  eslint-disable-next-line react/no-unescaped-entities */}
                      <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                      <Link to= '/dataAnalistJr'>
                        <button className='btn-card'>Me interesa</button>
@@ -28,7 +29,9 @@ export const Cards = () => {
                  <div className="card" style={{ width: '21rem' }}>
                       <img className="img-card" src="https://img.freepik.com/fotos-premium/hombre-retrato-sonrisa-programador-computadora-lugar-trabajo-oficina-noche-cara-ti-codificador-masculino-o-persona-programando-codificacion-escritura-desarrollo-software-o-tecnologia-informacion_590464-197574.jpg" alt="..."/>
                   <div className="card-body">
+                     {/* eslint-disable-next-line react/jsx-no-comment-textnodes */}
                      <h5 className="card-title">Card title</h5>
+                     {/* eslint-disable-next-line react/no-unescaped-entities */}
                      <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                      <Link to='/fullStackJunior'>
                        <button className='btn-card'>Me interesa</button>
@@ -41,6 +44,7 @@ export const Cards = () => {
                       <img className="img-card"  src="https://cronicasfreelancer.com/wp-content/uploads/2019/08/aprender-a-programar-despues-de-los-30.jpg"  alt="..."/>
                   <div className="card-body">
                      <h5 className="card-title">Card title</h5>
+                     {/* eslint-disable-next-line react/no-unescaped-entities */}
                      <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                      <Link to='/fullStackJunior'>
                        <button className='btn-card'>Me interesa</button>

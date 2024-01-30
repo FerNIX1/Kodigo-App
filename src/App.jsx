@@ -3,10 +3,12 @@
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import { LoginPage } from "./pages/LoginPage";
 import { RegistroPage } from "./pages/RegisterPage";
+import { HomePage } from './pages/HomePage'
 import "bootstrap/dist/css/bootstrap.min.css"
 function App() {
 
   const Router=createBrowserRouter([
+    {path: '/', element: <HomePage/>},
     {path:"/login",element:<LoginPage></LoginPage>},
     {path:"/Registro",element:<RegistroPage></RegistroPage>}
    ]);
