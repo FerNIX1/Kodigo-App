@@ -1,4 +1,5 @@
 import {Cards} from '../cards/Cards'
+import { Footer } from '../Footer/Footer'
 import './home.css'
 
 export const Home = () => {
@@ -29,6 +30,8 @@ export const Home = () => {
     </div>
 
        <Cards/>
+
+       <Footer />
     
     </>
   )
