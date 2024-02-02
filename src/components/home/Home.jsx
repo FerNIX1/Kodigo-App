@@ -1,4 +1,3 @@
-import React from 'react'
 import {Cards} from '../cards/Cards'
 import { Footer } from '../Footer/Footer'
 import './home.css'
