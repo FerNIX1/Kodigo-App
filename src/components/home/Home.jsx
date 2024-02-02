@@ -1,5 +1,6 @@
 import React from 'react'
 import {Cards} from '../cards/Cards'
+import { Footer } from '../Footer/Footer'
 import './home.css'
 
 
@@ -59,13 +60,13 @@ export const Home = () => {
     <div className='bootcamp0' style={{ marginBottom: "-132px"}}>
         <span>¿Que es un</span>
     </div>
-
+       <Cards/>
     <div style={{display: "flex"}}>
          <span className='bootcamp' style={{ marginLeft: "50px" }} >Bootcamp?</span>
         <span style={{fontSize: "20px", paddingTop:"90px", }}>Los Bootcamps son cursos intensivos que dotan a los estudiantes de una excelente preparación para saltar al mercado laboral. Las características principales son las clases intensivas y un temario muy concentrado.</span>
     </div>
 </div>
-  
+        <Footer />
       </>
   )
 }

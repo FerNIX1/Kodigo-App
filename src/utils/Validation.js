@@ -11,4 +11,9 @@ const EmailValidation={
     value:24,
     message:"Password must be less than 24 characters"
 };
-export {EmailValidation,MaxPassword,MinPassword};
+
+const PhoneValidation={
+    value:/^(\d{4}-\d{4}|\d{3}-\d{4}-\d{4})$/,
+    message:"El número de teléfono debe tener al menos 8 dígitos y máximo 11, con el formato 0000-0000 o 000-0000-0000"
+};
+export {EmailValidation,MaxPassword,MinPassword, PhoneValidation};
