@@ -10,6 +10,7 @@ export const HomePage = () => {
     <Home/>
     <Cards/>
     <Aliados/>
+    
   
 </>
   )
