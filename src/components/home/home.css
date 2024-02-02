@@ -1,16 +1,9 @@
-.contenedor {
-    position: relative;
-}
-
-.imagen-contenedor {
+.image-contenedor {
     position: relative;
     overflow: hidden;
 }
 
-.imagen {
-    width: 100%;
-    height: auto;
-}
+ 
 
 .degradado {
     width: 100%;
@@ -18,18 +11,11 @@
     position: absolute;
     top: 0;
     left: 0;
-    background: linear-gradient(45deg, rgba(104, 50, 253, 0.9), rgba(155, 7, 200, 0.9));
+    background: linear-gradient(45deg, rgba(40, 1, 91, 0.9), rgba(136, 22, 171, 0.9));
     z-index: 1;
 }
 
-.contenido {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 2;
-    text-align: center;
-}
+
 
 .frase1 {
     text-transform: uppercase;
@@ -51,8 +37,7 @@
     color: #ffff;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
-
-button {
+.btn-home {
     margin-top: 20px;
     padding: 10px 20px;
     font-size: 19px;
@@ -64,11 +49,84 @@ button {
     text-transform: uppercase;
     font-weight: 750;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
+  
 }
-
-button:hover {
+.btn-home:hover {
     background-color: #2dd6e2;
     color: rgb(2, 2, 56); /* Cambia el color del texto en hover */
 }
+/* 2 */
+.card-image2{
+    width: 100%;
+    z-index: 2;
+   border-radius: 40px!important;
+   padding: 35px;
+   
+   }
+.description{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #5e2c89;
+    font-weight: 400;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   padding: 12px;
+}
+.descripcion{
+    padding: 20px;
+    font-size: 20px;
+    
+}
+.contenido {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    text-align: center;
+}
+.contenido2 {
+    position: absolute;
+    top: 34em;
+
+    width: 86%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    z-index: 1; 
+}
+
+/* 3 */
+.bootcamp0{
+    font-size: 49px ;
+   padding-left: 1em;
+   color: #7329b4;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+   text-transform: uppercase;
+}
+.bootcamp{
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(to left, #83138b, #c65151);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #83138b, #c65151); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color:aliceblue;
+    font-size: 49px;
+    font-weight: 760;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 13px;
+     padding: 2px;
+    margin: 2.5em;
+}  
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
 

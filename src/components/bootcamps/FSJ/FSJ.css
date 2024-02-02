@@ -1,0 +1,42 @@
+.contenedor-fsj{
+  background-color: rgb(218, 222, 222);
+  border-radius: 16px;
+  padding: 30px;
+   margin-bottom: 23px;
+
+}
+.modules{
+    text-transform: uppercase;
+    color: rgb(67, 5, 89);
+    font-size: 51px;
+
+    padding: 34px;
+  
+}
+.module-title{
+    color: rgb(112, 8, 153);
+}
+li{
+    font-size: 20px;
+    
+}
+.btn-aplicar{
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 25px;
+    background-color: rgb(112, 8, 153); 
+    color: #fefefe; 
+    width: 20vw;
+    border-radius: 35px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 750;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     border: rgb(112, 8, 153);
+}
+.btn-aplicar:hover {
+    background-color: #2dd6e2;
+    color: rgb(112, 8, 153);
+    border: #2dd6e2;
+    
+}
