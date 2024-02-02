@@ -5,6 +5,7 @@ import { app } from '../../utils/FirebaseConfig';
 import {useNavigate} from "react-router-dom";
 import { useState } from 'react';
 import {Link} from "react-router-dom";
+import "../Registro/Registro.css"
 export const Registro = () => {
   const { handleSubmit, register, formState: { errors } } = useForm();
   const auth = getAuth(app);
@@ -20,6 +21,7 @@ export const Registro = () => {
   }
 
   return (
+    <div className="bg-login">
     <section className="d-flex justify-content-end align-items-center p-5 m-5">
       <form
         className="bg-white p-5"
@@ -57,5 +59,6 @@ export const Registro = () => {
       {errors && errors.message && <span className='text-danger'>{errors.message}</span>}
       {error && <span className="text-danger">{error}</span>}
     </section>
+    </div>
   )
 }
