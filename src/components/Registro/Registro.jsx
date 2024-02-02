@@ -4,6 +4,7 @@ import {getAuth,createUserWithEmailAndPassword} from "firebase/auth";
 import { app } from '../../utils/FirebaseConfig';
 import {useNavigate} from "react-router-dom";
 import { useState } from 'react';
+import {Link} from "react-router-dom";
 export const Registro = () => {
   const { handleSubmit, register, formState: { errors } } = useForm();
   const auth = getAuth(app);
@@ -48,8 +49,11 @@ export const Registro = () => {
           />
           {errors && errors.password && <span className="invalid-feedback">{errors.password.message}</span>}
         </div>
-        <button type="submit" className="btn btn-primary">Registrarse</button>
+       
+        <button type="submit" className="btn btn-primary">Registrarse</button><br></br>
+        <Link to={"/login"}>si tengo cuenta</Link>
       </form>
+      
       {errors && errors.message && <span className='text-danger'>{errors.message}</span>}
       {error && <span className="text-danger">{error}</span>}
     </section>
