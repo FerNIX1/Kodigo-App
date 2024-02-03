@@ -1,0 +1,12 @@
+.description-fsj span::selection {
+    background-color: rgb(216, 142, 4);
+    color: white;
+}
+
+
+.description-fsj {
+    padding: 30px;
+    font-size: larger;
+    
+}
+

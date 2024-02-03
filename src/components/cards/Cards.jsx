@@ -76,7 +76,7 @@ export const Cards = () => {
                     <img src="https://seeklogo.com/images/P/python-logo-C50EED1930-seeklogo.com.png"  width="44px" alt="" />
                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png" style={{marginLeft: "33px"}} width="40px" alt="" />
                    </div>
-                     <Link to='/fullStackJunior'>
+                     <Link to='/PythonDeveloper'>
                        <button className='btn-card'>Me interesa</button>
                      </Link>
                 </div>
@@ -93,7 +93,8 @@ export const Cards = () => {
                     <img src="https://res.cloudinary.com/dzb6jy2uq/image/upload/v1706735564/java-removebg-preview_xclgh3.png"   width="76px" alt="" />
                   
                    </div>
-                     <Link to='/fullStackJunior'>
+    
+                     <Link to='/JavaDeveloper'>
                        <button className='btn-card'>Me interesa</button>
                      </Link>
                 </div>
