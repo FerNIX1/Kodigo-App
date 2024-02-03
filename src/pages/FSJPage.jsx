@@ -1,4 +1,4 @@
-import { Description } from "../components/bootcamps/FSJ/description/Description"
+
 import { FSJ } from "../components/bootcamps/FSJ/FSJ"
 
 
@@ -10,7 +10,7 @@ export const FSJPage = () => {
     <>
     <Navbar/>
     <FSJ/>
-    <Description/>
+  
 
     </>
   )

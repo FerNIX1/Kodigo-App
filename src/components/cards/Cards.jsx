@@ -58,7 +58,7 @@ export const Cards = () => {
                            
                            </div>
                        
-                        <Link to='/fullStackJunior'>
+                        <Link to='/DataAnalystJunior'>
                             <button className='btn-card'>Me interesa</button>
                         </Link>
                       </div>
