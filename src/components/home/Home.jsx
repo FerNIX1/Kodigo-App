@@ -53,16 +53,23 @@ export const Home = () => {
 
 
 {/* 3 */}
-<div style={{padding: "2em", paddingBottom:"30px"}}>
-    <div className='bootcamp0' style={{ marginBottom: "-132px"}}>
-        <span>¿Que es un</span>
+<div style={{ padding: "5em", paddingBottom: "30px", boxSizing: "border-box" }}>
+  
+<div className='container'>
+    <div className='bootcamp0'>
+    <span>¿Qué es un</span><br />
+    <span className='bootcamp'>Bootcamp?</span>
     </div>
-      
-    <div style={{display: "flex"}}>
-         <span className='bootcamp' style={{ marginLeft: "50px" }} >Bootcamp?</span>
-        <span style={{fontSize: "20px", paddingTop:"90px", }}>Los Bootcamps son cursos intensivos que dotan a los estudiantes de una excelente preparación para saltar al mercado laboral. Las características principales son las clases intensivas y un temario muy concentrado.</span>
+
+    <div style={{ display: "flex", flexDirection: "column", alignItems: "left", paddingLeft:"23px"}}>
+      <span style={{ fontSize: "20px", paddingTop: "20px" }}>
+        Los Bootcamps son cursos intensivos que dotan a los estudiantes de una excelente preparación para saltar al mercado laboral. 
+        Las características principales son las clases intensivas y un temario muy concentrado.
+      </span>
     </div>
+  </div>
 </div>
+
 
 
   

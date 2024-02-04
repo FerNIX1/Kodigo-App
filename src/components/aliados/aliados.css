@@ -13,3 +13,6 @@
   .img-aliados{
     object-fit: contain;
   }
+.container-aliados{
+  padding: 10px;
+}
