@@ -2,6 +2,7 @@ import { Navbar } from '../../Navbar/Navbar'
 import { Footer } from '../../Footer/Footer'
 import { DescriptionJava } from './descriptionJava/DescriptionJava'
 import { Link } from 'react-router-dom';
+import './java.css'
  
  export const Java = () => {
     return(
@@ -18,7 +19,7 @@ import { Link } from 'react-router-dom';
 
 <h1 className='container modules'>programa educativo</h1>
   
-  <div className="container contenedor-fsj">
+  <div className="container contenedor-java">
       <div>
       <h3 className='module-title'>Módulo 1: JAVA Y ALGORITMOS</h3>
       </div>
@@ -36,7 +37,7 @@ import { Link } from 'react-router-dom';
       </ul>
   </div>
 
-  <div className="container contenedor-fsj">
+  <div className="container contenedor-java">
       <div>
       <h3 className='module-title'>Módulo 2: CONCEPTOS EXTENDIDOS Y AVANZADOS DE PROGRAMACION ORIENTADA A OBJETOS Y JAVA</h3>
       </div>
@@ -57,7 +58,7 @@ import { Link } from 'react-router-dom';
       </ul>
   </div>
 
-  <div className="container contenedor-fsj">
+  <div className="container contenedor-java">
       <div>
       <h3 className='module-title'>Módulo 3:REST - APIS CON JAVA</h3>
       </div>

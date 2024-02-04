@@ -2,6 +2,7 @@ import { Navbar } from "../../Navbar/Navbar"
 import { Footer } from '../../Footer/Footer'
 import { DescriptionPython } from "./descriptionPython/DescriptionPython"
 import { Link } from 'react-router-dom';
+import './python.css'
 
 
 
@@ -20,7 +21,7 @@ export const Python = () => {
 
           <h1 className='container modules'>programa educativo</h1>
   
-  <div className="container contenedor-fsj">
+  <div className="container contenedor-python">
       <div>
       <h3 className='module-title'>Módulo 1: Desarrollo de features</h3>
       </div>
@@ -31,7 +32,7 @@ export const Python = () => {
                </ul>
   </div>
 
-  <div className="container contenedor-fsj">
+  <div className="container contenedor-python">
       <div>
       <h3 className='module-title'>Módulo 2: Testing de código</h3>
       </div>
@@ -42,7 +43,7 @@ export const Python = () => {
       </ul>
   </div>
 
-  <div className="container contenedor-fsj">
+  <div className="container contenedor-python">
       <div>
       <h3 className='module-title'>Módulo 3: Debuging de código</h3>
       </div>
@@ -52,7 +53,7 @@ export const Python = () => {
       </ul>
   </div>
 
-  <div className="container contenedor-fsj">
+  <div className="container contenedor-python">
       <div>
       <h3 className='module-title'>Módulo 4: Refactorización de código</h3>
       </div>
@@ -64,7 +65,7 @@ export const Python = () => {
   </div>
 
   
-  <div className="container contenedor-fsj">
+  <div className="container contenedor-python">
       <div>
       <h3 className='module-title'>Módulo 5: Versionamiento de código</h3>
       </div>
@@ -75,7 +76,7 @@ export const Python = () => {
               </ul>
   </div>
 
-  <div className="container contenedor-fsj">
+  <div className="container contenedor-python">
       <div>
       <h3 className='module-title'>Módulo 6: Diseño de bases de datos
 </h3>
@@ -88,7 +89,7 @@ export const Python = () => {
       </ul>
   </div>
 
-  <div className="container contenedor-fsj">
+  <div className="container contenedor-python">
       <div>
       <h3 className='module-title'>Módulo 6: Realización de presentaciones de avance
 </h3>

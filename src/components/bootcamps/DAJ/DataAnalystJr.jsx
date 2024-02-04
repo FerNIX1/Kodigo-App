@@ -2,6 +2,7 @@ import { Footer } from "../../Footer/Footer"
 import { Navbar } from "../../Navbar/Navbar"
 import { DescriptionDataAnalyst } from "./description/DescriptionDataAnalyst"
 import { Link } from 'react-router-dom';
+import './dataAnalystJr.css'
 
 export const DataAnalystJr = () => {
   return (
@@ -17,7 +18,7 @@ export const DataAnalystJr = () => {
 
 <h1 className='container modules'>programa educativo</h1>
   
-  <div className="container contenedor-fsj">
+  <div className="container contenedor-daj">
       <div>
       <h3 className='module-title'>Módulo 1: Fundamentos de Bases de Datos</h3>
       </div>
@@ -28,7 +29,7 @@ export const DataAnalystJr = () => {
       </ul>
   </div>
 
-  <div className="container contenedor-fsj">
+  <div className="container contenedor-daj">
       <div>
       <h3 className='module-title'>Módulo 2: Lectura y Extracción de Datos</h3>
       </div>
@@ -39,7 +40,7 @@ export const DataAnalystJr = () => {
       </ul>
   </div>
 
-  <div className="container contenedor-fsj">
+  <div className="container contenedor-daj">
       <div>
       <h3 className='module-title'>Módulo 3: Análisis de Datos</h3>
       </div>
@@ -52,7 +53,7 @@ export const DataAnalystJr = () => {
       </ul>
   </div>
 
-  <div className="container contenedor-fsj">
+  <div className="container contenedor-daj">
       <div>
       <h3 className='module-title'>Módulo 4: Presentación de Datos</h3>
       </div>
@@ -66,7 +67,7 @@ export const DataAnalystJr = () => {
   </div>
 
   
-  <div className="container contenedor-fsj">
+  <div className="container contenedor-daj">
       <div>
       <h3 className='module-title'>Módulo 5: Programación con Datos</h3>
       </div>

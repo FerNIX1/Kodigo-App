@@ -57,7 +57,7 @@ export const Home = () => {
 {/* 3 */}
 <div style={{ padding: "5em", paddingBottom: "30px", boxSizing: "border-box" }}>
   
-<div className='container'>
+<div className='container-home'>
     <div className='bootcamp0'>
     <span>¿Qué es un</span><br />
     <span className='bootcamp'>Bootcamp?</span>
