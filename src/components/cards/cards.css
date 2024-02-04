@@ -80,13 +80,13 @@
     align-items: center;
   }
   .card {
-    width: 80%; /* Adjust the width as per your design */
+    width: 80%; 
   }
 }
 .card {
-  /* Your existing styles for the card */
-  width: 300px; /* Adjust the width as per your design */
-  margin: 20px; /* Adjust the margin as per your design */
+
+  width: 300px; 
+  margin: 20px; 
 }
 
 
