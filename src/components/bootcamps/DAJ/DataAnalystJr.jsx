@@ -78,7 +78,7 @@ export const DataAnalystJr = () => {
       </ul>
   </div>
 
-<Link to='/incripcion-Bootcamp'>
+<Link to='/inscripcion-Bootcamp'>
 <div className='container'>
   <button className='btn-aplicar'>Aplica</button>
   </div><br />

@@ -74,7 +74,7 @@ import { Link } from 'react-router-dom';
       </ul>
   </div>
 
-  <Link to='/incripcion-Bootcamp'>
+  <Link to='/inscripcion-Bootcamp'>
      <div className='container'>
      <button className='btn-aplicar'>
         Aplica

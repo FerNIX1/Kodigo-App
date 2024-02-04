@@ -3,7 +3,7 @@ import './descriptionFSJ.css'
 export const DescriptionFSJ = () => {
     return (
       <>
-       <div class="container description-fsj">
+       <div className="container description-fsj">
         <span>
         Full Stack Junior es un emocionante bootcamp de 30 semanas que abarcará un amplio espectro de tecnologías esenciales en el mundo del desarrollo web y de software. A lo largo de este programa, explorarás en profundidad HTML, CSS, JavaScript, React, PHP y Laravel, adquiriendo habilidades vitales en la creación de aplicaciones web robustas y dinámicas. El aprendizaje en este bootcamp será una experiencia dinámica y desafiante, impulsada por un ardiente deseo de aprender y crecer. </span>
     </div>
