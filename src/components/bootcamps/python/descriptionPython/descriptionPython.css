@@ -1,0 +1,11 @@
+.descriptionPython span::selection {
+    background-color: rgb(216, 142, 4);
+    color: white;
+}
+
+
+.descriptionPython {
+    padding: 30px;
+    font-size: larger;
+    
+}

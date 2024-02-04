@@ -19,8 +19,8 @@ export const Navbar = () => {
           <div className="dropdown-menu" aria-labelledby="navbarDropdown">
             <a className="dropdown-item" href="/FullStackJunior">Full Stack Jr</a>
             <a className="dropdown-item" href="/DataAnalystJunior">Data Analyst Jr</a>
-            <a className="dropdown-item" href="#">Python developer</a>
-            <a className="dropdown-item" href="#">Java developer</a>
+            <a className="dropdown-item" href="/PythonDeveloper">Python developer</a>
+            <a className="dropdown-item" href="/JavaDeveloper">Java developer</a>
           </div>
         </li>
         <li className="nav-item">

@@ -1,15 +1,18 @@
 import { useForm } from 'react-hook-form'
 import { EmailValidation, PhoneValidation } from '../../utils/Validation'
 
+
 export const Form = () => {
   const { register, handleSubmit, formState: { errors } } = useForm()
   const onSubmit = (data) => console.log(data)
 
   return (
+    
     <form
       onSubmit={handleSubmit(onSubmit)}
       className="p-5 bg-white w-50 mx-auto m-5 rounded-3 shadow-sm"
     >
+ 
 
       <div className="mb-3">
         <label
@@ -163,5 +166,6 @@ export const Form = () => {
         </span>
       }
     </form>
+    
   )
 }

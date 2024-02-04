@@ -1,13 +1,19 @@
+import { Footer } from "../../Footer/Footer"
 import { Navbar } from "../../Navbar/Navbar"
+import { DescriptionDataAnalyst } from "./description/DescriptionDataAnalyst"
+import { Link } from 'react-router-dom';
 
 export const DataAnalystJr = () => {
   return (
     <> 
-       <Navbar/>
+       <Navbar/><br /><br /><br />
        <img src="https://res.cloudinary.com/dzb6jy2uq/image/upload/v1706824980/Captura_de_pantalla_912_wmkqhh.png"
     className='img-fluid'
     alt="" 
     style={{  width: "100%", height:"29em"}}/>
+
+
+    <DescriptionDataAnalyst/>
 
 <h1 className='container modules'>programa educativo</h1>
   
@@ -72,13 +78,13 @@ export const DataAnalystJr = () => {
       </ul>
   </div>
 
- 
+<Link to='/incripcion-Bootcamp'>
 <div className='container'>
   <button className='btn-aplicar'>Aplica</button>
-  </div>
+  </div><br />
+  </Link>
 
-
-
+<Footer/>
     
     </>
   )
