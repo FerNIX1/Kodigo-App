@@ -5,12 +5,12 @@ import {addInscripcion} from "../../utils/AccionesFirebase"
 export const Form = () => {
   const { register, handleSubmit, formState: { errors } } = useForm()
   const onSubmit = async (data) => {
-    // Call the addUser function to add the form data to Firebase
+    
     const result = await addInscripcion(data);
 
     if (result.success) {
-      console.log('Register added successfully:', result.docRef);
-      // You can perform additional actions after successful submission
+      window.alert('Formulario enviado con exito logueate para termianar proceso');
+  
     } else {
       console.error('Error adding Register:', result.error);
     }
