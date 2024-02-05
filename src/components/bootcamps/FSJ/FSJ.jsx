@@ -2,6 +2,7 @@ import { Footer } from '../../Footer/Footer'
 import { Navbar } from '../../Navbar/Navbar'
 import { DescriptionFSJ } from './description/DescriptionFSJ'
 import { Link } from 'react-router-dom';
+import { Form } from '../../Form/Form';
 
 import './FSJ.css'
 
@@ -17,6 +18,8 @@ export const FSJ = () => {
     style={{width: "100%"}}/>
 
    <DescriptionFSJ/>
+
+    <Form />
  
    <h1 className='container modules'>programa educativo</h1>
   

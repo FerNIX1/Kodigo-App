@@ -3,7 +3,7 @@ import { Footer } from '../../Footer/Footer'
 import { DescriptionPython } from "./descriptionPython/DescriptionPython"
 import { Link } from 'react-router-dom';
 import './python.css'
-
+import { Form } from '../../Form/Form';
 
 
 export const Python = () => {
@@ -18,6 +18,7 @@ export const Python = () => {
 
           <DescriptionPython/>
 
+        <Form />
 
           <h1 className='container modules'>programa educativo</h1>
   

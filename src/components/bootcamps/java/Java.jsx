@@ -3,6 +3,8 @@ import { Footer } from '../../Footer/Footer'
 import { DescriptionJava } from './descriptionJava/DescriptionJava'
 import { Link } from 'react-router-dom';
 import './java.css'
+import { Form } from '../../Form/Form';
+
  
  export const Java = () => {
     return(
@@ -16,6 +18,8 @@ import './java.css'
          style={{width: "100%"}}/>
 
          <DescriptionJava/>
+
+        <Form />
 
 <h1 className='container modules'>programa educativo</h1>
   
