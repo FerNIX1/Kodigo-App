@@ -12,8 +12,6 @@ import { DataAnalystJrPage } from './pages/DataAnalystJrPage';
 import { PythonPage } from './pages/PythonPage';
 import { JavaPage } from './pages/JavaPage';
 
-
-
 function App() {
   return (
     <Router>
