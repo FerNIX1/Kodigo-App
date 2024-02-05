@@ -38,7 +38,7 @@ export const Welcome = () => {
     <section>
       <div className="container mt-5">
         <h1>Hola Bienvenido, {email}</h1>
-        <h3>Vista general del curso</h3>
+        <h3>Vista General del Curso</h3>
         <hr />
         <section>
       <div className="container mt-5">
