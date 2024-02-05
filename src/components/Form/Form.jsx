@@ -7,13 +7,13 @@ export const Form = () => {
   const onSubmit = (data) => console.log(data)
 
   return (
+    <>
+    <h3 className="h3 text-center m-5">¡No pierdas la oportunidad e inscríbete!</h3>
     
     <form
       onSubmit={handleSubmit(onSubmit)}
-      className="p-5 bg-white w-50 mx-auto m-5 rounded-3 shadow-sm"
+      className="p-5 bg-white w-50 mx-auto m-4 rounded-3 shadow-sm"
     >
- 
-
       <div className="mb-3">
         <label
           htmlFor=""
@@ -92,7 +92,7 @@ export const Form = () => {
         </label>
         <input
           type="tel"
-          placeholder="´503 5677 -9877"
+          placeholder="´503-5677 -9877"
           className='form-control-lg w-100'
           {...register("phone", { pattern: PhoneValidation })}
         />
@@ -134,10 +134,10 @@ export const Form = () => {
           {...register("exp")}
           className="form-select-lg w-100"
         >
-          <option value="A">Ninguna</option>
-          <option value="A">Básica</option>
-          <option value="A">Intermedia</option>
-          <option value="B">Avanzada</option>
+          <option value="Ninguna">Ninguna</option>
+          <option value="Basica">Básica</option>
+          <option value="Intermedia">Intermedia</option>
+          <option value="Avanzada">Avanzada</option>
         </select>
       </div>
 
@@ -166,6 +166,6 @@ export const Form = () => {
         </span>
       }
     </form>
-    
+    </>
   )
 }
