@@ -16,7 +16,6 @@ export const addUser = (email, password) => {
             return addDoc(collection(db, "users"), {
               correo: email,
               contraseña: password,
-              cursosInscritos: ["curso1", "curso2"]
             });
           } else {
            
@@ -39,4 +38,34 @@ export const addUser = (email, password) => {
       reject({ error });
     }
   });
+};
+export const addInscripcion = async (data) => {
+  try {
+    // Add your form data to the "formIncripcion" collection
+    const docRef = await addDoc(collection(db, 'formIncripcion'), data);
+
+    return { success: true, docRef };
+  } catch (error) {
+    console.error('Error adding user to formIncripcion collection:', error);
+    return { success: false, error };
+  }
+};
+export const getCourseByUserEmail = async (email) => {
+  try {
+    const querySnapshot = await getDocs(query(collection(db, 'formIncripcion'), where('email', '==', email)));
+
+    if (querySnapshot.empty) {
+      // No se encontró ningún usuario con ese correo
+      return null;
+    }
+
+    // Obtén la información del curso del primer documento (asumiendo que solo hay uno)
+    const userDoc = querySnapshot.docs[0].data();
+    const course = userDoc.course;
+
+    return course;
+  } catch (error) {
+    console.error('Error al obtener información del curso por correo:', error);
+    throw error;
+  }
 };

@@ -27,7 +27,9 @@ export const Navbar = () => {
           <a className="nav-link" href="/login" style={{ color: '#333' }}>Login</a>
         </li>
         <li className="nav-item">
-          <button className="btn btn-warning ml-2 mt-1">Aplica</button>
+        <a href="/inscripcion-Bootcamp"className="btn btn-warning ml-2 mt-1"role="button">
+                  Aplica
+                </a>
         </li>
       </ul>
     </div>
