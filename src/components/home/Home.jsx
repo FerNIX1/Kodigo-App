@@ -1,6 +1,7 @@
 import './home.css'
 
 
+import { Link } from 'react-router-dom';
 
 export const Home = () => {
   
@@ -21,7 +22,11 @@ export const Home = () => {
       <div className="frase3">
         <span>Nuestros bootcamps te preparan para tener un mejor futuro</span>
       </div>
-      <button className='btn-home'>Aplica</button>
+      <li className="nav-item mt-2">
+    <Link to="/inscripcion-Bootcamp" className="btn-home" role="button">
+      Aplica
+    </Link>
+  </li>
     </div>
     
   {/* Segunda parte */}
