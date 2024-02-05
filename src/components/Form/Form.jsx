@@ -1,11 +1,20 @@
 import { useForm } from 'react-hook-form'
 import { EmailValidation, PhoneValidation } from '../../utils/Validation'
-
+import {addInscripcion} from "../../utils/AccionesFirebase"
 
 export const Form = () => {
   const { register, handleSubmit, formState: { errors } } = useForm()
-  const onSubmit = (data) => console.log(data)
+  const onSubmit = async (data) => {
+    // Call the addUser function to add the form data to Firebase
+    const result = await addInscripcion(data);
 
+    if (result.success) {
+      console.log('Register added successfully:', result.docRef);
+      // You can perform additional actions after successful submission
+    } else {
+      console.error('Error adding Register:', result.error);
+    }
+  };
   return (
     <>
     <h3 className="h3 text-center m-5">¡No pierdas la oportunidad e inscríbete!</h3>
@@ -154,7 +163,29 @@ export const Form = () => {
           {...register("date")}
         />
       </div>
-
+      <div className="mb-3">
+          <label
+            htmlFor=""
+            className="form-label"
+          >
+            Curso de interés
+          </label>
+          <select
+            {...register("course", { required: true })}
+            className="form-select-lg w-100"
+          >
+            <option value="1">Full Stack Jr</option>
+            <option value="2">Data Analyst Jr</option>
+            <option value="3">Python Developer</option>
+            <option value="4">Java developer</option>
+          </select>
+          {
+            errors.course?.type === 'required' &&
+            <span className="text-danger form-text">
+              Seleccione un curso
+            </span>
+          }
+        </div>
       <input
         type="submit"
         value="Enviar"
