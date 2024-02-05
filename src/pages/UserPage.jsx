@@ -1,6 +1,6 @@
 
 import { Navbar } from '../components/Navbar/Navbar';
-import { Welcome } from '../components/welcome/welcome';
+import { Welcome } from '../components/welcome/welcome.jsx';
 export const UserPage = () => {
  
   return (
