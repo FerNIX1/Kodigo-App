@@ -20,10 +20,7 @@
     color: rgb(112, 8, 153);
 }
 /* cambiar de color al seleccionar */
-.module-title::selection {
-    background-color: rgb(216, 142, 4); /* Cambia el color de fondo cuando se selecciona */
-    color: white; /* Cambia el color del texto a blanco al seleccionar */
-}
+
 
 li::selection {
     background-color: rgb(216, 142, 4) !important;
