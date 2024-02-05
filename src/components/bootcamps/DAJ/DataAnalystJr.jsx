@@ -3,7 +3,7 @@ import { Navbar } from "../../Navbar/Navbar"
 import { DescriptionDataAnalyst } from "./description/DescriptionDataAnalyst"
 import { Link } from 'react-router-dom';
 
-import './dataAnalystJr.css'
+import './DataAnalystJr.css'
 
 import { Form } from "../../Form/Form";
 
