@@ -2,6 +2,7 @@ import { Navbar } from '../../Navbar/Navbar'
 import { Footer } from '../../Footer/Footer'
 import { DescriptionJava } from './descriptionJava/DescriptionJava'
 import { Link } from 'react-router-dom';
+import { Form } from '../../Form/Form';
  
  export const Java = () => {
     return(
@@ -15,6 +16,8 @@ import { Link } from 'react-router-dom';
          style={{width: "100%"}}/>
 
          <DescriptionJava/>
+
+        <Form />
 
 <h1 className='container modules'>programa educativo</h1>
   

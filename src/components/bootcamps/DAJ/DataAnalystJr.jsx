@@ -2,6 +2,7 @@ import { Footer } from "../../Footer/Footer"
 import { Navbar } from "../../Navbar/Navbar"
 import { DescriptionDataAnalyst } from "./description/DescriptionDataAnalyst"
 import { Link } from 'react-router-dom';
+import { Form } from "../../Form/Form";
 
 export const DataAnalystJr = () => {
   return (
@@ -14,6 +15,8 @@ export const DataAnalystJr = () => {
 
 
     <DescriptionDataAnalyst/>
+
+    <Form />
 
 <h1 className='container modules'>programa educativo</h1>
   
