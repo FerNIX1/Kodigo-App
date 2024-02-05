@@ -1,6 +1,6 @@
 
 import { Navbar } from '../components/Navbar/Navbar';
-import { Welcome } from '../components/welcome/welcome.jsx';
+import { Welcome } from '../components/welcome/Welcome.jsx'; // <-- Corregir nombre aquí
 export const UserPage = () => {
  
   return (
