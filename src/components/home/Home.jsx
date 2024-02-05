@@ -1,3 +1,5 @@
+import React from 'react'
+import {Cards} from '../cards/Cards'
 import './home.css'
 
 
@@ -70,9 +72,6 @@ export const Home = () => {
   </div>
 </div>
 
-
-
-  
       </>
   )
 }
