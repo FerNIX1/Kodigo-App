@@ -9,24 +9,40 @@
     text-transform: uppercase;
     color: rgb(67, 5, 89);
     font-size: 51px;
-
     padding: 34px;
-  
-}
-.module-title{
+  }
+  .modules::selection{
+    background-color: rgb(216, 142, 4);
+    color: white;
+  }
+
+.module-title {
     color: rgb(112, 8, 153);
 }
-li{
-    font-size: 20px;
-    
+/* cambiar de color al seleccionar */
+.module-title::selection {
+    background-color: rgb(216, 142, 4); /* Cambia el color de fondo cuando se selecciona */
+    color: white; /* Cambia el color del texto a blanco al seleccionar */
 }
+
+li::selection {
+    background-color: rgb(216, 142, 4) !important;
+    color: white !important;
+}
+
+li {
+    font-size: 20px;
+}
+
+
+
 .btn-aplicar{
     margin-top: 20px;
     padding: 10px 20px;
     font-size: 25px;
     background-color: rgb(112, 8, 153); 
     color: #fefefe; 
-    width: 20vw;
+    width: 200px;
     border-radius: 35px;
     cursor: pointer;
     text-transform: uppercase;

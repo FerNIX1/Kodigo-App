@@ -71,11 +71,23 @@
 }
 .cards-container {
   display: flex;
-  padding: 19px;
-
-  justify-content: space-evenly; /* Puedes usar "space-between" si prefieres espacio solo entre las tarjetas */
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
+@media only screen and (max-width: 768px) {
+  .cards-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .card {
+    width: 80%; 
+  }
+}
+.card {
 
+  width: 300px; 
+  margin: 20px; 
+}
 
 
   

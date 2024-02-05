@@ -1,16 +1,22 @@
+import { Footer } from '../../Footer/Footer'
 import { Navbar } from '../../Navbar/Navbar'
+import { DescriptionFSJ } from './description/DescriptionFSJ'
+import { Link } from 'react-router-dom';
+
 import './FSJ.css'
 
 export const FSJ = () => {
   return (
     <>
-    <Navbar/>
+    <Navbar/><br /><br /><br />
 
     
     <img src="https://res.cloudinary.com/dzb6jy2uq/image/upload/v1706760973/Captura_de_pantalla_911_kyvkta.png"
     className='img-fluid'
     alt="" 
     style={{width: "100%"}}/>
+
+   <DescriptionFSJ/>
  
    <h1 className='container modules'>programa educativo</h1>
   
@@ -100,9 +106,17 @@ export const FSJ = () => {
             
         </ul>
     </div>
-  <div className='container'>
-    <button className='btn-aplicar'>Aplica</button>
-    </div>
+  
+
+    <Link to='/inscripcion-Bootcamp'>
+      <div className='container'>
+      <button className='btn-aplicar' 
+      >Aplica
+      </button>
+      </div><br />
+    </Link>
+
+<Footer/>
     </>
   )
 }

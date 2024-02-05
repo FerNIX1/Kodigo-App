@@ -1,6 +1,9 @@
 .bg-login{
-    background-image: url('https://res.cloudinary.com/dxdsq6qcw/image/upload/v1706502030/nd2mm6ufdbphhmculvkq.png');
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
-  }
+  background-image: url('https://res.cloudinary.com/dxdsq6qcw/image/upload/v1706502030/nd2mm6ufdbphhmculvkq.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh; 
+  display:grid;
+  margin: 0; }
+  

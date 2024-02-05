@@ -1,4 +1,3 @@
-import React from 'react'
 import { Aliados } from '../components/aliados/Aliados'
 import { Cards } from '../components/cards/Cards'
 import { Home } from '../components/home/Home'

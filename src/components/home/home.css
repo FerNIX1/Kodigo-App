@@ -116,7 +116,11 @@
     margin: 2.5em;
 }  
 
-
+.container {
+    padding: 2em;
+    padding-bottom: 30px;
+    box-sizing: border-box; /* Añade esta propiedad para que el padding no afecte el ancho total */
+  }
 
 
    
