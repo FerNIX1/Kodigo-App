@@ -3,13 +3,19 @@
     background-color: rgb(216, 142, 4);
     color: white;
   }
-.image-contenedor {
-    position: relative;
+  .image-contenedor img {
+    max-height: 900px; /* Ajusta según tus necesidades */
+}
+.nav-item {
+    list-style-type: none;
+  }
+.image-contenedor2 {
+    max-height: 300px; /* Ajusta según tus necesidades */
     overflow: hidden;
 }
-
- 
-
+.container3{
+    margin-top: 60px;
+}
 .degradado {
     width: 100%;
     height: 100%;
@@ -88,16 +94,17 @@
     transform: translate(-50%, -50%);
     z-index: 2;
     text-align: center;
+    
 }
 .contenido2 {
-    position: absolute;
-    top: 34em;
-
-    width: 86%;
-    height: 100%;
+    width: 100%;
+    max-width: 600px; /* Ajusta según tus necesidades */
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    z-index: 1; 
 }
 
 /* 3 */
