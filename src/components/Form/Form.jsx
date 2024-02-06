@@ -21,7 +21,8 @@ export const Form = () => {
     
     <form
       onSubmit={handleSubmit(onSubmit)}
-      className="p-5 bg-white w-50 mx-auto m-4 rounded-3 shadow-sm"
+      className="p-5 bg-white w-md-75 m-4 rounded-3 shadow-sm"
+      style={{ maxWidth: '600px' }} 
     >
       <div className="mb-3">
         <label
